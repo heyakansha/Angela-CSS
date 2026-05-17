@@ -1,0 +1,29 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+  
+  
+  
+}
+ p {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.white-text{
+  background-color: red;
+  color: white;
+
+  
+}
+.para{
+  color: yellow;
+}
+#outer-box 
+{ border:20px purple solid;}
+
