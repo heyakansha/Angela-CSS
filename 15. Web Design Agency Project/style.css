@@ -27,12 +27,12 @@ h1 > span {
 
 .tile-image {
   float: left;
-  gap: 30px;
+ gap: 30px;
 }
 
 .card-text {
-  gap: 30px;
-  margin-left: 350px;
+  gap: 100px
+
 }
 .card-title {
   margin-left: 350px;
@@ -47,22 +47,51 @@ footer {
     body { font-size: 16px; }
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body {
-    background-color: lightblue;
-  }
+    background-color: lightcoral  
+    
+     } 
+ body{
+  height:200px}
+
+  
   .container {
-    width: 100%;
+    width: 200px;
     padding: 10px;
-    display:flex;
+    display:block;
   }
    .tile-image{
-    flex-direction: column;
 
+    display: block;
    }
-   .card-text{
-    text-align: center;
+   .card-text{    
+    
+    text-align:right ;
+    
+margin-left: 50px;
+
+    
+    
    }
+   h1{
+    font-size: xx-large 
+   }
+   h1{ text-align: center;
+m
+   }
+   .card-title{
+    float: right;
+    text-align: left;
+   
+   }
+ footer{
+  margin-top: 1400px;
+ } 
+ footer{ text-align: center;
+
+ }
+
 }
 
 
